@@ -7,7 +7,7 @@ import serve from "../../../assets/restuarent/others/serve.png";
 const WhatWeDo = () => {
     return (
         <div className="my-10">
-            <h2 className="text-center text-yellow-600 font-bold text-xl ">What We Do</h2>
+            <h2 className="text-center text-yellow-600 font-bold text-xl uppercase mb-3">What We Do</h2>
             <h3 className="text-center text-7xl font-extrabold text-white">Great Taste Of Pizza <br />
                 @Every Single Bite Time <br />
                 To Explore Taste.</h3>

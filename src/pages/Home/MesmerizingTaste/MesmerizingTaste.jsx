@@ -4,7 +4,7 @@ const MesmerizingTaste = () => {
     return (
         <div className="my-10 ml-10">
             <div className='mb-10 '>
-                <h2 className="text-left text-yellow-600 font-bold text-xl ">INTERNATIONAL DISHES
+                <h2 className="text-left text-yellow-600 font-bold text-xl mb-3">INTERNATIONAL DISHES
                 </h2>
                 <h3 className="text-left text-4xl font-bold text-white">Our Iconic Menus</h3>
             </div>
