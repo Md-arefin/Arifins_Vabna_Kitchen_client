@@ -7,6 +7,7 @@ import serve from "../../../assets/restuarent/others/serve.png";
 const WhatWeDo = () => {
     return (
         <div className="my-10">
+            <h2 className="text-center text-yellow-600 font-bold text-xl ">What We Do</h2>
             <h3 className="text-center text-7xl font-extrabold text-white">Great Taste Of Pizza <br />
                 @Every Single Bite Time <br />
                 To Explore Taste.</h3>
@@ -43,6 +44,9 @@ const WhatWeDo = () => {
                     <h4 className="text-center text-white text-2xl font-extrabold my-4">Perfect Cooking</h4>
                     <p>Lorem, ipsum dolor sit amet <br /> consectetur adipisicing elit.</p>
                 </div>
+            </div>
+            <div className="my-5 text-center">
+                <p className="btn my-5 rounded bg-[#ad1a19]">Book A Table</p>
             </div>
         </div>
     );

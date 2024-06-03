@@ -5,7 +5,7 @@ import img3 from "../../../assets/restuarent/others/animator-img3.png";
 
 const Fast_Marquee = () => {
     return (
-        <Marquee className=" bg-red-600 cursor-grabbing " pauseOnHover={true}>
+        <Marquee className=" bg-red-600 cursor-pointer " pauseOnHover={true}>
             <img src={img1} alt="" />
             <p className="font-sans font-extrabold text-5xl text-white px-5">Book A Table</p>
             <img src={img2} alt="" />
