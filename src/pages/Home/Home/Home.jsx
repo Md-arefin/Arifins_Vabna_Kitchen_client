@@ -3,6 +3,7 @@ import Fast_Marquee from "../Fast_Marquee/Fast_Marquee";
 import IconicMenu from "../IconicMenu/IconicMenu";
 import MesmerizingTaste from "../MesmerizingTaste/MesmerizingTaste";
 import ProfessionalTeam from "../ProfessionalTeam/ProfessionalTeam";
+import Review from "../Review/Review";
 import WhatWeDo from "../whatWeDo/whatWeDo";
 
 
@@ -15,6 +16,7 @@ const Home = () => {
         <IconicMenu />
         <MesmerizingTaste />
         <ProfessionalTeam />
+        <Review />
     </div>
     );
 };
