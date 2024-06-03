@@ -5,23 +5,23 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 
     const navItems = <>
-        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
+        <li className="hover:bg-[#ad1a19] rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>Home</Link>
         </li>
 
-        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
+        <li className="hover:bg-[#ad1a19] rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>Menu</Link>
         </li>
 
-        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
+        <li className="hover:bg-[#ad1a19] rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>Reservation</Link>
         </li>
 
-        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
+        <li className="hover:bg-[#ad1a19] rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>About Us</Link>
         </li>
 
-        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
+        <li className="hover:bg-[#ad1a19] rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>Blog</Link>
         </li>
     </>
@@ -46,7 +46,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    <a className="btn hover:bg-rose-700 rounded border border-white">Login</a>
+                    <a className="btn hover:bg-[#ad1a19] rounded border border-white">Login</a>
                 </div>
             </div>
         </div>
