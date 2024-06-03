@@ -1,5 +1,6 @@
 import Banner from "../Banner/banner";
 import Fast_Marquee from "../Fast_Marquee/Fast_Marquee";
+import WhatWeDo from "../whatWeDo/whatWeDo";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
         <Banner />
         <Fast_Marquee />
+        <WhatWeDo />
     </div>
     );
 };

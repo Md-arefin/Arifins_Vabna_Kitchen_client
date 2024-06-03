@@ -7,7 +7,7 @@ const Fast_Marquee = () => {
     return (
         <Marquee className=" bg-red-600 cursor-grabbing " pauseOnHover={true}>
             <img src={img1} alt="" />
-            <p className="font-extrabold text-5xl text-white px-5">Book A Table</p>
+            <p className="font-sans font-extrabold text-5xl text-white px-5">Book A Table</p>
             <img src={img2} alt="" />
             <p className="font-extrabold text-5xl text-white px-5">Explore Food</p>
             <img src={img3} alt="" />
