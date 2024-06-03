@@ -15,19 +15,19 @@ const MesmerizingTaste = () => {
                 </div>
                 
                 <div>
-                    <p className="btn rounded bg-[#ad1a19] uppercase text-white font-bold text-2xl">Appetizers</p>
+                    <p className="btn rounded border-white hover:bg-[#ad1a19] uppercase text-white font-bold text-2xl">Appetizers</p>
                 </div>
 
                 <div>
-                    <p className="btn rounded bg-[#ad1a19] uppercase text-white font-bold text-2xl">Vegetarian</p>
+                    <p className="btn rounded border-white hover:bg-[#ad1a19] uppercase text-white font-bold text-2xl">Vegetarian</p>
                 </div>
 
                 <div>
-                    <p className="btn rounded bg-[#ad1a19] uppercase text-white font-bold text-2xl">Sandwiches</p>
+                    <p className="btn rounded border-white hover:bg-[#ad1a19] uppercase text-white font-bold text-2xl">Sandwiches</p>
                 </div>
 
                 <div>
-                    <p className="btn rounded bg-[#ad1a19] uppercase text-white font-bold text-2xl">Deserts</p>
+                    <p className="btn rounded border-white hover:bg-[#ad1a19] uppercase text-white font-bold text-2xl">Deserts</p>
                 </div>
 
             </div>
