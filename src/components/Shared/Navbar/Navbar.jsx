@@ -5,19 +5,23 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 
     const navItems = <>
-        <li>
+        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>Home</Link>
         </li>
-        <li>
+
+        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>Menu</Link>
         </li>
-        <li>
+
+        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>Reservation</Link>
         </li>
-        <li>
+
+        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>About Us</Link>
         </li>
-        <li>
+
+        <li className="hover:bg-rose-700 rounded border border-white hover:border-black hover:text-black mx-2">
             <Link>Blog</Link>
         </li>
     </>
@@ -34,15 +38,15 @@ const Navbar = () => {
                             {navItems}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">AV Kitchen</a>
+                    <a href="/" className="btn btn-ghost text-xl">AV Kitchen</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {navItems}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
+                <div className="navbar-end ">
+                    <a className="btn hover:bg-rose-700 rounded border border-white">Login</a>
                 </div>
             </div>
         </div>
