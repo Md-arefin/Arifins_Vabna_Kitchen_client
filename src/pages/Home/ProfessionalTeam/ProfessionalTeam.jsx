@@ -22,7 +22,7 @@ const ProfessionalTeam = () => {
                 <div className="w-1/4">
                     <img className="rounded border-2 border-white " src={img2} alt="" />
                     <div className="mt-5">
-                        <p className="text-center text-yellow-600  text-xl mb-1">Executive Chief</p>
+                        <p className="text-center text-yellow-600  text-xl mb-1">Executive Chef</p>
                         <p className="text-center text-white  text-2xl font-bold">Sam Adams</p>
                     </div>
                 </div>
