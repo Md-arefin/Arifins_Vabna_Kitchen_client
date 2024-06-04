@@ -62,7 +62,7 @@ const Login = () => {
 
             <form className='w-full md:w-1/3 mx-auto md:mt-24 p-2 md:p-5 lg:p-10 rounded-lg bg-[#ad1a19] ' onSubmit={handleSubmit(onSubmit)}>
 
-                <h5 className='text-center font-semibold text-3xl'>Please Login</h5>
+                <h5 className='text-center font-semibold text-3xl'>Login</h5>
 
                 <div className="flex flex-col gap-3  mb-2">
                     <label htmlFor="email">Email</label>
@@ -82,7 +82,7 @@ const Login = () => {
                         {...register("password")} required />
                 </div>
 
-                <p className='text-center'>New to AV Kitchen? <Link to='/sign-up' className='underline font-semibold'> Please Sign-up</Link></p>
+                <p className='text-center'>New to AV Kitchen? <Link to='/register' className='underline font-semibold'> Please Sign-up</Link></p>
 
                 <div className="flex justify-center my-10">
 
