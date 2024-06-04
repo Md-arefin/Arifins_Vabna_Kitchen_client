@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-key */
 import { Link } from "react-router-dom";
+import img from "../../../assets/restuarent/logo.png";
 
 
 const Navbar = () => {
@@ -38,7 +39,11 @@ const Navbar = () => {
                             {navItems}
                         </ul>
                     </div>
-                    <a href="/" className="btn btn-ghost text-xl">AV Kitchen</a>
+                    <a href="/" className="btn btn-ghost text-xl flex items-center">
+                        <div>
+                            <img className="w-10" src={img} alt="" />
+                        </div>
+                        <p>AV Kitchen</p></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -46,7 +51,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    <a className="btn hover:bg-[#ad1a19] rounded border border-white">Login</a>
+                    <Link to='/login' className="btn hover:bg-[#ad1a19] rounded border border-white">Login</Link>
                 </div>
             </div>
         </div>
